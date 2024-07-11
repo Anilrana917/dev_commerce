@@ -6,6 +6,36 @@
   height: 40vmin;
   pointer-events: none;
 }
+.anchor-tags {
+  color: #fff;
+  text-decoration: unset;
+  padding: 6px 6px 0px 12px;
+}
+.card-img-top {
+  height: 220px;
+  object-fit: contain;
+}
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 6em;
+  line-height: 1.2em;
+}
+.card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 2.5em;
+  line-height: 1.2em;
+}
+.card-text:last-child {
+  height: auto;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
